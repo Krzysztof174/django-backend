@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    env_file: .env.example
+    environment:
+      SQLITE_PATH: /app/data/db.sqlite3
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - sqlite_data:/app/data
+
+volumes:
+  sqlite_data:

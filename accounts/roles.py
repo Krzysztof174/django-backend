@@ -1,0 +1,4 @@
+MEMBERS = "Members"
+LIBRARIANS = "Librarians"
+
+ALL_ROLES = (MEMBERS, LIBRARIANS)
