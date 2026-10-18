@@ -1,4 +1,4 @@
-# BookaBook
+# BookaBook - Krzysztof Osiniak 174903
 
 Community library REST API built with Django and Django REST Framework.
 Members borrow physical book copies, librarians manage the catalog and
